@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://phenomenal-puppy-645fba.netlify.app/sitemap.xml

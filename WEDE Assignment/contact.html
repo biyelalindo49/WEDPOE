@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Woolworths</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="site-header">
+
+        <a class="logo" href="index.html">
+            <img src="images/woolworths.jpg" alt="Woolworths Logo" class="logo-img">
+            <span class="logo-text">WOOLWORTHS<span>.</span></span>
+        </a>
+
+
+        <button class="menu-toggle" aria-label="Open menu">
+            ☰
+        </button>
+
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="product.html">
+                Products
+            </a>
+
+            <a href="service.html">
+                Services
+            </a>
+
+            <a class="active" href="Contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- PAGE INTRODUCTION -->
+
+        <section class="page-hero compact">
+
+            <p class="eyebrow">
+                CONTACT US
+            </p>
+
+
+            <h1>
+                How can we
+                <br>
+                <em>help?</em>
+            </h1>
+
+
+            <p>
+                Send us an enquiry using the form below.
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section class="section contact-layout">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div>
+
+                <p class="eyebrow">
+                    CUSTOMER SUPPORT
+                </p>
+
+
+                <h2>
+                    Let's talk.
+                </h2>
+
+
+                <p>
+                    Have a question about products,
+                    services, delivery or anything else?
+                    Complete the form and submit your
+                    enquiry.
+                </p>
+
+
+                <!-- PROTOTYPE NOTICE -->
+
+                <div class="contact-note">
+
+                    <strong>
+                        Prototype notice
+                    </strong>
+
+
+                    <p>
+                        This is an academic website
+                        project and does not submit
+                        information to the real
+                        Woolworths organisation.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 CONTACT FORM
+            ========================== -->
+
+            <form id="contactForm" novalidate>
+
+
+                <!-- FULL NAME -->
+
+                <label for="name">
+                    Full Name
+                </label>
+
+
+                <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+
+
+                <!-- EMAIL -->
+
+                <label for="email">
+                    Email Address
+                </label>
+
+
+                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+
+
+                <!-- ENQUIRY TYPE -->
+
+                <label for="type">
+                    Enquiry Type
+                </label>
+
+
+                <select id="type" name="type" required>
+
+                    <option value="">
+                        Select one
+                    </option>
+
+                    <option value="product">
+                        Product enquiry
+                    </option>
+
+                    <option value="delivery">
+                        Delivery
+                    </option>
+
+                    <option value="click-collect">
+                        Click & Collect
+                    </option>
+
+                    <option value="support">
+                        Customer support
+                    </option>
+
+                    <option value="other">
+                        Other
+                    </option>
+
+                </select>
+
+
+
+                <!-- MESSAGE -->
+
+                <label for="message">
+                    Message
+                </label>
+
+
+                <textarea id="message" name="message" rows="6" placeholder="Write your enquiry..." required>
+                </textarea>
+
+
+
+                <!-- SUBMIT BUTTON -->
+
+                <button class="btn" type="submit">
+
+                    Submit Enquiry
+
+                </button>
+
+
+
+                <!-- JAVASCRIPT MESSAGE -->
+
+                <p id="formMessage" class="form-message" role="status">
+                </p>
+
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div>
+
+            <a class="logo" href="index.html">
+
+                <img src="images/woolworths.jpg" alt="Woolworths Logo" class="logo-img">
+                <span class="logo-text">WOOLWORTHS<span>.</span></span>
+
+            </a>
+
+
+            <p>
+                Academic website prototype —
+                not the official Woolworths website.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="product.html">
+                Products
+            </a>
+
+            <a href="service.html">
+                Services
+            </a>
+
+            <a href="Contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

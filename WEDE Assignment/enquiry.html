@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Woolworths</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <img src="images/woolworths.jpg" alt="Woolworths Logo" class="logo-img">
+            <span class="logo-text">WOOLWORTHS<span>.</span></span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Products</a>
+            <a href="service.html">Services</a>
+            <a class="active" href="enquiry.html">Enquiry</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-hero compact">
+            <p class="eyebrow">MAKE AN ENQUIRY</p>
+            <h1>
+                Ask us about our
+                <br>
+                <em>offerings</em>
+            </h1>
+            <p>
+                Use this form to enquire about our services, products, or the possibility of volunteering or sponsoring.
+            </p>
+        </section>
+
+        <section class="section contact-layout">
+            <div>
+                <p class="eyebrow">CUSTOMER SUPPORT</p>
+                <h2>We would love to hear from you.</h2>
+                <p>
+                    Whether you are interested in a product, want to learn more about our services,
+                    or are looking to support our community through volunteering or sponsorship,
+                    we are here to help.
+                </p>
+
+                <div class="contact-note">
+                    <strong>Enquiry notice</strong>
+                    <p>
+                        This form is for academic website use only and does not send information
+                        to a real organisation.
+                    </p>
+                </div>
+            </div>
+
+            <form id="contactForm" novalidate>
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                <label for="type">Enquiry Type</label>
+                <select id="type" name="type" required>
+                    <option value="">Select one</option>
+                    <option value="service">Service enquiry</option>
+                    <option value="product">Product enquiry</option>
+                    <option value="volunteer">Volunteer enquiry</option>
+                    <option value="sponsor">Sponsorship enquiry</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell us more about your enquiry..." required></textarea>
+
+                <button class="btn" type="submit">Send Enquiry</button>
+
+                <p id="formMessage" class="form-message" role="status"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <a class="logo" href="index.html">
+                <img src="images/woolworths.jpg" alt="Woolworths Logo" class="logo-img">
+                <span class="logo-text">WOOLWORTHS<span>.</span></span>
+            </a>
+
+            <p>
+                Academic website prototype — not the official Woolworths website.
+            </p>
+        </div>
+
+        <div>
+            <a href="about.html">About</a>
+            <a href="product.html">Products</a>
+            <a href="service.html">Services</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
